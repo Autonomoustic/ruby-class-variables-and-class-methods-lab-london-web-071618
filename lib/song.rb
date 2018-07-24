@@ -41,6 +41,7 @@ class Song
         genre_count[g] += 1
       #if no add new key with the value
       #if yes iterate/ add 1 to count
+      end
     end
     genre_count
   end

@@ -20,7 +20,7 @@ class Song
   end
   
   def self.artists
-    @@artists.each do |song|
+    @@artists.each.uniq do |song|
       puts song
     end
   end

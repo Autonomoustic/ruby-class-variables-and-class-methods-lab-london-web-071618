@@ -31,7 +31,7 @@ class Song
     end
   end
   
-  def self.genre_count(genre)
+  def self.genre_count
     genre_count = {}
     @@genres.each do |g|
       #check if it's already in hash

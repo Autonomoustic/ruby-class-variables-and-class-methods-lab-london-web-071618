@@ -20,7 +20,8 @@ class Song
   end
   
   def self.artists
-    @name
+    @@artists.each do |song|
+      puts song
   end
   
 end

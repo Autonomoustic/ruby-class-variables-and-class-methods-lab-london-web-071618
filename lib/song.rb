@@ -21,7 +21,7 @@ class Song
   
   def self.artists
     @@artists.uniq do |song|
-      puts song
+      puts song = song.uniq
     end
   end
   

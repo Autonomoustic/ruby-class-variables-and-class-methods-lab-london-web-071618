@@ -22,6 +22,7 @@ class Song
   def self.artists
     @@artists.each do |song|
       puts song
+    end
   end
   
 end

@@ -34,6 +34,13 @@ class Song
   def self.genre_count(genre)
     genre_count = {}
     @@genres.each do |g|
+      #check if it's already in hash
+      if genre_count != g
+        genre_count[g] = 1
+      else
+        genre_count[g] += 1
+      #if no add new key with the value
+      #if yes iterate/ add 1 to count
     end
     genre_count
   end

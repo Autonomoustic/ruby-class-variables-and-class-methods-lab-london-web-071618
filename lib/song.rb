@@ -25,4 +25,10 @@ class Song
     end
   end
   
+  def self.genre
+    @@genres.uniq.each do |g|
+      puts g
+    end
+  end
+  
 end

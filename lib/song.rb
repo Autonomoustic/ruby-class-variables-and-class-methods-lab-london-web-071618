@@ -20,8 +20,8 @@ class Song
   end
   
   def self.artists
-    @@artists.each.uniq do |song|
-      puts song
+    @@artists.each do |song|
+      puts song.uniq
     end
   end
   

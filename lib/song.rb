@@ -1,6 +1,6 @@
 class Song
   
-  @@count = []
+  @@count = 3
   
   attr_accessor :name, :artist, :genre
   

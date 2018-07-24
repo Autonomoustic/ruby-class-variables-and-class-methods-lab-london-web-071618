@@ -31,4 +31,15 @@ class Song
     end
   end
   
+  def self.genre_count
+    genre_count = {}
+    @@genres.each do |g|
+      genre_count[]
+  
 end
+
+
+
+
+
+

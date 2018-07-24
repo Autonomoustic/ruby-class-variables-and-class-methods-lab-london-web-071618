@@ -35,7 +35,7 @@ class Song
     genre_count = {}
     @@genres.each do |g|
       #check if it's already in hash
-      if genre_count != g
+      if genre_count[g] == nil
         genre_count[g] = 1
       else
         genre_count[g] += 1

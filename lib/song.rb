@@ -39,6 +39,7 @@ class Song
       else
       genre_count[:g] = g.count
     end
+    end
     genre_count
   end
   

@@ -52,6 +52,7 @@ class Song
         artist_count[a] += 1
       end
     end
+    artist_count
   end
   
 end
